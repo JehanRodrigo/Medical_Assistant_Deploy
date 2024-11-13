@@ -68,7 +68,7 @@ function SearchBar() {
             // Debounce API calls
             debounceTimeout.current = setTimeout(async () => {
                 try {
-                    const response = await axios.post('http://127.0.0.1:5000/suggest', { 
+                    const response = await axios.post('https://allied-andreana-jehan-rodrigo-b4f5bb76.koyeb.app/', { 
                         input: currentLine 
                     });
                     
