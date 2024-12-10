@@ -68,7 +68,7 @@ function SearchBar() {
             // Debounce API calls
             debounceTimeout.current = setTimeout(async () => {
                 try {
-                    const response = await axios.post('https://medicalassistantbackend-production.up.railway.app/suggest', { 
+                    const response = await axios.post('https://medicalback-34822786368.asia-south1.run.app/suggest', { 
                         input: currentLine 
                     });
                     
